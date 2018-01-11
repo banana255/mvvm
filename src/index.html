@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MVVM</title>
+</head>
+<body>
+<div id="id-mvvm-template">
+    <!--<input type="text" gua-bind:value="word" gua-on:input="(v)=>word=v">-->
+    <input type="text" g-model="word">
+    <br>
+    <span>{{ word }} </span>
+    <span gua-for="i in list"></span>
+</div>
+<script src="utils.js"></script>
+<script src="observer.js"></script>
+<script src="watcher.js"></script>
+<script src="compile.js"></script>
+<script src="mvvm.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
