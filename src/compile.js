@@ -1,7 +1,7 @@
 /**
  * Created by bigbananas on 2017/11/21.
  */
-// const log = console.log.bind(console)
+import { log, fragmentByNode } from './utils'
 
 class Directives {
     constructor(data) {
@@ -122,9 +122,10 @@ class Compiler extends Directives{
     }
 }
 
-/*
+export default Compiler
+
 if(module === require.main) {
-    const o = new Order({a:122})
+    const o = new Directives({a:122})
     o['gua-text']({value: 'aaaa{{a }}ddd'})
 }
-*/
+

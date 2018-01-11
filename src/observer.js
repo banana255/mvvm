@@ -1,6 +1,7 @@
 /**
  * Created by bigbananas on 2017/11/21.
  */
+import { log } from './utils'
 class Observer {
     constructor(data={}) {
         this.data = data
@@ -86,3 +87,5 @@ class Dep {
         })
     }
 }
+
+export default Observer

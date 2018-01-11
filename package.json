@@ -1,0 +1,27 @@
+{
+  "name": "mvvm",
+  "version": "1.0.0",
+  "description": "gua",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --config config/webpack.dev.js",
+    "build": "webpack --config config/webpack.build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BigBanan/mvvm.git"
+  },
+  "keywords": [
+    "mvvm"
+  ],
+  "author": "BigBananas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BigBanan/mvvm/issues"
+  },
+  "homepage": "https://github.com/BigBanan/mvvm#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^2.30.1",
+    "webpack": "^3.10.0"
+  }
+}

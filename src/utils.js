@@ -13,3 +13,8 @@ const fragmentByNode = (node) => {
     }
     return fragment
 }
+
+export {
+    fragmentByNode,
+    log,
+}

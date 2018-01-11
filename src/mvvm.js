@@ -1,6 +1,8 @@
 /**
  * Created by bigbananas on 2017/11/21.
  */
+import Observer from './observer'
+import Compiler from './compile'
 class Mvvm {
     constructor(options={}) {
         this.options = options
@@ -9,3 +11,5 @@ class Mvvm {
         this.compiler = new Compiler(this.element, this.observer.data)
     }
 }
+
+export default Mvvm
