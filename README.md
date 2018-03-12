@@ -8,7 +8,8 @@
 1. `git clone`
 2. `npm install`
 3. 编写 `index.html` 模板语法
-4. 新建一个 `Mvvm` 实例
+4. 新建一个 `Mvvm` 实例（模仿 index.html）
+5. 编译：`npm run build`，编译结果在 `dist/` 中
 
 ### 目前支持的语法：
 - dom 节点属性：
